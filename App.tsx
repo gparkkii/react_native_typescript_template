@@ -1,6 +1,6 @@
-import Test from 'components/Test';
 import React, { useEffect, useState } from 'react';
 import { SafeAreaView, StatusBar, View, useColorScheme } from 'react-native';
+import Test from 'components/Test';
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -13,7 +13,7 @@ const App = () => {
   }, []);
 
   return isLoading ? (
-    <View>{/* <HomeScreen /> */}</View>
+    <View>{/* Loading Screen */}</View>
   ) : (
     <SafeAreaView>
       <StatusBar
@@ -22,7 +22,6 @@ const App = () => {
         barStyle={isDarkMode ? 'light-content' : 'dark-content'}
       />
       <View>
-        {/* <LoginScreen /> */}
         <Test />
       </View>
     </SafeAreaView>

@@ -7,7 +7,7 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ./src/**/*.tsx --fix"
+    "lint": "eslint --ext .tsx --ext .ts src/"
   },
   "dependencies": {
     "react": "17.0.1",
@@ -26,10 +26,12 @@
     "babel-jest": "^27.0.2",
     "babel-plugin-module-resolver": "^4.1.0",
     "eslint": "^7.27.0",
+    "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "jest": "^27.0.3",
     "metro-react-native-babel-preset": "^0.66.0",
+    "prettier": "^2.3.0",
     "react-test-renderer": "17.0.1"
   },
   "jest": {
