@@ -2,7 +2,7 @@
 
 <br/>
 
-## 💌 Quick Start
+## 🚀 Quick Start
 
 ```zsh
 $ react-native init project-name
@@ -10,9 +10,11 @@ $ react-native init project-name
 
 ---
 
+<br/>
+
 ## Add TypeScript to React Native
 
-[React-Native 공식문서 참조](https://reactnative.dev/docs/next/typescript)
+> [React-Native 공식문서 참조](https://reactnative.dev/docs/next/typescript)
 
 ### 1. Install TypeScript and the types for React Native
 
@@ -22,7 +24,7 @@ $ npm install -D typescript @types/jest @types/react @types/react-native @types/
 
 ### 2. Create a TypeScript config file
 
-Create a `tsconfig.json`file in the root of your project:
+> Create a `tsconfig.json`file in the root of your project:
 
 ```text
 // tsconfig.json
@@ -51,7 +53,7 @@ Create a `tsconfig.json`file in the root of your project:
 
 ### 3. Create a jest.config.js file
 
-Create a jest.config.js file to configure Jest to use TypeScript
+> Create a jest.config.js file to configure Jest to use TypeScript
 
 ```text
 // jest.config.js
@@ -74,9 +76,7 @@ App.js => App.tsx
 
 ## Eslint Setting
 
-> React Native에 ESLint가 내장되어있다. ESLint 설정만 세팅해주기
-
-[React Native에서 ESLint, Prettier를 프로처럼 사용하기](https://dev-yakuza.posstree.com/ko/react-native/eslint-prettier-husky-lint-staged/)
+> [React Native에서 ESLint, Prettier를 프로처럼 사용하기](https://dev-yakuza.posstree.com/ko/react-native/eslint-prettier-husky-lint-staged/)
 
 ### 1. ESLint 초기 설정
 
